@@ -1,0 +1,26 @@
+.p_footer{
+	text-align: center;
+}
+
+footer{
+	padding-top: 80px;
+}
+
+a.backtotop{
+	display: block;
+	float: right;
+}
+
+@media (min-width:992px) {
+	a.backtotop{
+	display: none;
+	}
+}
+
+p{
+	font-size: 14px;
+}
+
+li{
+	font-size: 14px;
+]

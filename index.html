@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jing Yao Li</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/mytemplate.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target="#Sidebar" data-offset="50">
+	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Resume</a>
+			</div>
+			<div class="navbar-collapse navbar-responsive-collapse collapse" aria-expanded="true">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">About Me</a></li>
+					<li><a href="#Projects">Projects</a></li>
+					<li><a href="#Activities">Activities</a></li>
+					<li><a href="#Work">Work</a></li>
+					<!--<li><a href="./courses.html">Courses</a></li>-->
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<h1>About Me</h1>
+		<p class="lead">I'm currently a third year student pursuing a Bachelor of Electrical and Computer Engineering through the 
+		Engineering Science program at the University of Toronto.</p>
+	</div>
+
+	<div class="container">
+		<div class = "row">
+			<div class = "col-md-9" role="main">
+				<div>
+					<h1 id="Projects" class="page-header">Projects</h1>
+					<p class="lead">Design Projects</p>
+
+					<h3 id = "Project-Processor">Processor</h3>
+					<h5> A lab project as part of my Computer Organization class. I thoroughly enjoyed it as it was
+					my first major verilog project and required conceptualizing the entire processor as a system. We were
+					given a barebones single cycle processor with an ALU, register file, and memory system. We converted
+					it to a multicycle, pipleined processor.</h5>
+					<ul>
+						<li>Created and designed the data path and control signals of a multicycle, pipelined RISC processor</li>
+						<li>Correctly handles control and data hazards using bubbles and bypass wires respectively</li>
+						<li>One of the 7 fastest processor designs of the class</li>
+					</ul>
+
+					<h3 id = "Project-Robot">The Royal Throne</h3>
+					<h5> A design project for a robotics class in second year. We were asked to design and build an autonomous
+					robot that would check the state of an <a href="http://www.ufo-toollight.com/">UFO Tool Light</a>. The 
+					machine had to turn on the Tool Light, check how many of the LEDs were functioning, and then turn them
+					off. Our machine successively checked the state of 9 Tool Lights in one operation.</h5>
+					<ul>
+						<li>Created an autonomous machine that checked the state of LEDs on an UFO Tool Light</li>
+						<li>Programmed the PIC microcontroller and interfaced with the circuits</li>
+						<li>Designed a simple text user interface and developed the logic and control sequences</li>
+						<li>Determined the state of LEDs from the analog readings of 6 photoresistors</li>
+						<li>Allowed for the storage of previous test logs to the PIC EEPROM</li>
+					</ul>
+					
+					<a class="backtotop" href="#">Back to top</a>
+				</div>
+
+				<div>
+					<h1 id="Activities" class="page-header">Activities</h1>
+					<p class="lead">Activities and Smaller Projects</p>
+
+					<h3 id = "Activities-HA">Hacker Academy</h3>
+					<h5>A club within UofT that offers weekly talks about different programming ideas 
+					and the latest tools. I have attended the club since first year and enjoyed their
+					talks and dev competitions.</h5>
+					<ul>
+						<li>Participated in many of their Hackathons in groups of 2 or less</li>
+						<li>Achieved third place in the first Hackathon attended</li>
+						<li>Participated in their 2013 Windows Phone Hackathon and created a simple Payment Tracker App for Windows Phone 7.8</li>
+						<li>Attended Hacker Academy talks to learn additional topics outside of the classroom</li>
+					</ul>
+
+					<h3 id = "Activities-UTDev">UofTDev</h3>
+					<h5> A club within UofT that aims to connect student developers together to create apps.
+					I have recently joined the club this year and look forward to continue contributing
+					to the projects.</h5>
+					<ul>
+						<li>Collaborated with other students to brainstorm many app ideas to be created</li>
+						<li>Created a simple web app demo that searches Flickr photos given a keyword and displays one of the results</li>
+					</ul>
+					
+					<a class="backtotop" href="#">Back to top</a>
+				</div>
+
+				<div>
+					<h1 id="Work" class="page-header">Work</h1>
+					<p class="lead">Previous Work Experience</p>
+
+					<h3 id = "Work-Sony">Sony</h3>
+					<h5> I worked as a Sony Selects Campus Ambassador for the Fall 2013 semester form September
+					to December 2013. My job was to promote and demonstrate the Sony Vaio Pro 13 and other Sony
+					products to fellow students.</h5>
+					<ul>
+						<li>Promoted the Sony brand and experience across the UofT campus for the 2013 Fall semester</li>
+						<li>Gave hands on trials and demonstrations of the latest Sony products</li>
+						<li>Assisted Hacker Academy with their second Hackathon in the 2013 school year</li>
+						<li>Organized many events across campus that promoted Sony and their products</li>
+					</ul>
+
+					<h3 id = "Work-UofT">UofT</h3>
+					<h5> As part of the Alumni Relations department at the University of Toronto, I helped out with
+					major university events such as convocation and the Spring Reunion. I ensured the guests had a good
+					experience at all the events by talking with the guests.</h5>
+					<ul>
+						<li>Set up and helped with various University events such as convocation and Spring Reunion</li>
+						<li>Suggested a better way of entering new graduate emails into the alumni database</li>
+						<li>Ensured the guests had a pleasant experience and enjoyed the full extent of the event</li>
+					</ul>
+					
+					<a class="backtotop" href="#">Back to top</a>
+				</div>
+			</div>
+
+			<div class = "col-md-3" role="complementary">
+				<nav id="Sidebar" class="bs-docs-sidebar">
+					<ul class="nav bs-docs-sidenav">
+					<li>
+						<a href="#Projects">Projects</a>
+						<ul class="nav">
+							<li><a href="#Project-Processor">Processor</a></li>
+							<li><a href="#Project-Robot">Robot</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="#Activities">Activities</a>
+						<ul class="nav">
+							<li><a href="#Activities-HA">Hacker Academy</a></li>
+							<li><a href="#Activities-UTDev">UofTDev</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="#Work">Work</a>
+							<ul class="nav">
+							<li><a href="#Work-Sony">Sony</a></li>
+							<li><a href="#Work-UofT">UofT</a></li>
+						</ul>
+					</li>
+					</ul>
+					<a class="back-to-top" href="#top"> Back to top </a>
+				</nav>
+			</div>
+		</div>
+		
+		<footer>
+			<p class="p_footer">Jing Yao Li <br>
+			Last Updated: 2015-01-11</p>
+		</footer>
+	</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/myjs.js"></script>
+</body>
+</html>
